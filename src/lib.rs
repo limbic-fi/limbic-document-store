@@ -1,7 +1,7 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}
+pub mod collection;
+pub mod cursor;
+pub mod document;
+pub mod index;
+pub mod primary_index;
+pub mod secondary_index;
+pub mod snapshot;
